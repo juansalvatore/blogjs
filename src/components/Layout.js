@@ -83,7 +83,10 @@ class Layout extends React.Component {
           meta={[
             {
               name: 'theme-color',
-              content: this.state.theme === 'light' ? '#ffa8c5' : '#282c35',
+              content:
+                this.state.theme === 'light'
+                  ? 'hsla(207, 95%, 15%, 1)'
+                  : '#282c35',
             },
           ]}
         />
